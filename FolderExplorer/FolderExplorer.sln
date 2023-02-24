@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderExplorer", "FolderExplorer\FolderExplorer.csproj", "{E6A7255E-13B8-4FF1-AADC-1436DFFA6414}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderExplorerDAL", "FolderExplorerDAL\FolderExplorerDAL.csproj", "{51ED65D4-555A-46AA-860C-E84D41469C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6A7255E-13B8-4FF1-AADC-1436DFFA6414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A7255E-13B8-4FF1-AADC-1436DFFA6414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A7255E-13B8-4FF1-AADC-1436DFFA6414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A7255E-13B8-4FF1-AADC-1436DFFA6414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51ED65D4-555A-46AA-860C-E84D41469C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ED65D4-555A-46AA-860C-E84D41469C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ED65D4-555A-46AA-860C-E84D41469C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ED65D4-555A-46AA-860C-E84D41469C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACBF2E1-85B3-4FB6-816E-91DA4CFEB67D}
+	EndGlobalSection
+EndGlobal
