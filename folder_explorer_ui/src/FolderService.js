@@ -1,5 +1,5 @@
 export class FolderService {
-    baseUrl = 'https://localhost:44323/folder/';
+    baseUrl = 'https://localhost:7071/folder/';
     async getRoot() {
         let response = await fetch(this.baseUrl + 'GetRoot');
         let data = await response.json();

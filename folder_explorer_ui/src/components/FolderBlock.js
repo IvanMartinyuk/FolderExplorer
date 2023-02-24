@@ -4,8 +4,15 @@ import Folder from './Folder';
 
 function FolderBlock() {
     const [folders, setFolders] = useState();
+    const [backLink, setBack] = useState();
+    const [isRoot, setIsRoot] = useState();
+
     let service = new FolderService();
     useEffect(() => {
+        if(window.location.pathname == '/')
+            setIsRoot(true)
+        else
+            setIsRoot(false)
         sessionStorage.setItem('isClick', false);
         if(window.location.pathname == '/')
         {
@@ -33,28 +40,32 @@ function FolderBlock() {
                 });            
     }, [sessionStorage.getItem('isClick')]);
     
+    function getBack() {
+        let folders = window.location.pathname.split('/');
+        let path = '';
+        console.log(folders.length)
+        for(let i = 0; i < folders.length - 1; i++)
+        {
+            if(i + 1 != folders.length - 1)
+                path += folders[i] + '/';
+            else
+                path += folders[i];
+        }
+        if(folders.length == 2)
+            path = window.location.origin;
+        setBack(path)
+    }
     
     return (
         <div className="flex">
-            <div className='folderBlock flex'>
+            {   !isRoot&&
+                <a onClick={() => getBack()} href={backLink}>Back</a>
+                }
+            <div className='folderBlock flex' onClick={() => setIsRoot(false)}>
                 {folders}
             </div>
         </div>
     );
 }
-
-// function AddPath(path)
-// {
-//     sessionStorage.setItem("path", sessionStorage.getItem('path') + path + "/");
-// }
-
-// function RemovePath()
-// {
-//     let folders = sessionStorage.getItem('path').split('/');
-//     let path = '';
-//     for(let i = 0; i < folders.length - 1; i++)
-//         path += folders[i] + '/';
-//     sessionStorage.setItem("path", path);
-// }
 
 export default FolderBlock;
