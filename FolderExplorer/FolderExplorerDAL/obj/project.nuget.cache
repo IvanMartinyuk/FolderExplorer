@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GTuF8obVta/IU9gH/E5xJ8KE0k9uxQ6MYrVvE2WtQhqBCxIZy4czBR2I9khZpC18Vo5NxmEB/FMXNUCH/jQSIg==",
+  "dgSpecHash": "3aEpDFZ3GuJg7rbKdizdJOmiz8RSpplQuxVp90zYp+k1aquwRAIul3V0ieDrnXYz6OZagYamZZxICD2BAFP0vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ivan\\source\\repos\\Test\\FolderExplorer\\FolderExplorerDAL\\FolderExplorerDAL.csproj",
+  "projectFilePath": "C:\\Users\\Ivan\\source\\repos\\FolderExplorer\\FolderExplorer\\FolderExplorerDAL\\FolderExplorerDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

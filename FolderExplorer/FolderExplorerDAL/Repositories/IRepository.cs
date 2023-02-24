@@ -12,7 +12,9 @@ namespace FolderExplorerDAL.Repositories
         public Task<IEnumerable<T>> GetAll();
         public Task UpdateAsync(T entity);
         public Task AddAsync(T entity);
+        public Task AddRangeAsync(IEnumerable<T> entiies);
         public Task RemoveAsync(T entity);
+        public Task RemoveAllAsync();
         public Task SaveChanges();
     }
 }

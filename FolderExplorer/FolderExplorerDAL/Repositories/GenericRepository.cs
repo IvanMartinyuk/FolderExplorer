@@ -22,6 +22,17 @@ namespace FolderExplorerDAL.Repositories
             await table.AddAsync(entity);
             await context.SaveChangesAsync();
         }
+        public async Task AddRangeAsync(IEnumerable<T> entiies)
+        {
+            try
+            {
+                await table.AddRangeAsync(entiies);
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
 
         public async Task<IEnumerable<T>> GetAll()
         {
@@ -38,7 +49,10 @@ namespace FolderExplorerDAL.Repositories
         {
             await Task.Run(() => table.Remove(entity));
         }
-
+        public async Task RemoveAllAsync()
+        {
+            await Task.Run(() => table.RemoveRange(table.ToList()));
+        }
         public async Task SaveChanges()
         {
             await context.SaveChangesAsync();

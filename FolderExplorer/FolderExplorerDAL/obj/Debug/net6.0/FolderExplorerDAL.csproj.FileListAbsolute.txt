@@ -22,3 +22,15 @@ C:\Users\Ivan\source\repos\Test\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.
 C:\Users\Ivan\source\repos\Test\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\refint\FolderExplorerDAL.dll
 C:\Users\Ivan\source\repos\Test\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.pdb
 C:\Users\Ivan\source\repos\Test\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\ref\FolderExplorerDAL.dll
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\bin\Debug\net6.0\FolderExplorerDAL.deps.json
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\bin\Debug\net6.0\FolderExplorerDAL.dll
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\bin\Debug\net6.0\FolderExplorerDAL.pdb
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.csproj.AssemblyReference.cache
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.AssemblyInfoInputs.cache
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.AssemblyInfo.cs
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.dll
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\refint\FolderExplorerDAL.dll
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\FolderExplorerDAL.pdb
+C:\Users\Ivan\source\repos\FolderExplorer\FolderExplorer\FolderExplorerDAL\obj\Debug\net6.0\ref\FolderExplorerDAL.dll
